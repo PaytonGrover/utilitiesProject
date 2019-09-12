@@ -157,3 +157,22 @@ public class ExampleClass : MonoBehaviour
         }
     }
 }
+//Chapter 6: Animation
+
+    //create variable and then access the animation that you made
+    private Animator arenaAnimator
+
+    GameObject arena = transform.parent.gameObject;
+arenaAnimator = arena.GetComponent<Animator>();
+
+    //Boolean to set off the trigger when activated
+    void OnTriggerEnter(Collider other)
+{
+    arenaAnimator.SetBool("IsLowered", true);
+}
+//logic for raising a wall or something that you have in your game
+void OnTriggerExit(Collider other)
+{
+    arenaAnimator.SetBool("IsLowered", false);
+}
+
