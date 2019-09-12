@@ -157,6 +157,13 @@ public class ExampleClass : MonoBehaviour
         }
     }
 }
+
+// Section 6 Crash Course
+//how to write something on the screen. 
+Console.WriteLine("ANYTHING");
+
+    //Arrays
+    string[] writers = { "one", "two", "three" };
 //Chapter 6: Animation
 
     //create variable and then access the animation that you made
