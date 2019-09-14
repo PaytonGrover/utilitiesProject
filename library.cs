@@ -164,6 +164,12 @@ Console.WriteLine("ANYTHING");
 
     //Arrays
     string[] writers = { "one", "two", "three" };
+
+//Finding location based on time
+Vector3 result = Vector3.Lerp(start, end, .5f);
+
+// Getting gambe objects
+Light pointLight = GetComponent<Light>();
 //Chapter 6: Animation
 
     //create variable and then access the animation that you made
