@@ -159,7 +159,7 @@ public class ExampleClass : MonoBehaviour
 }
 
 // Section 6 Crash Course
-//how to write something on the screen. 
+//how to write something on the screen.
 Console.WriteLine("ANYTHING");
 
     //Arrays
@@ -189,3 +189,8 @@ void OnTriggerExit(Collider other)
     arenaAnimator.SetBool("IsLowered", false);
 }
 
+// the class discussion was about how philosophy is pretty much a
+//personal opinion. Everyone seems to have their idea of what is true,
+//what is right, and how everyone else is incorrect. Just talking about
+//these types of things cause us to have the opportunity to conduct our
+//own types of philisophical experiments.
